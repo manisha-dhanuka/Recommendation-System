@@ -1,12 +1,10 @@
 <p align="center"> 
-  <img src="" alt="Netflix" width="200px" height="200px">
+  <img src="images/Netflix.jpg" alt="Netflix" width="1500px" height="500px">
 </p>
 <h1 align="center"> Netflix Recommendation </h1>
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://certificates.almabetter.com/en/verify/24284787996614"> AlmaBetter Certificate </a> </h5>
 
-<p align="center"> 
-<img src="" alt="" height="382px">
-</p>
+
 
 Conducted EDA on Netflix Movie/TV Shows data, revealing content trends across regions, and developed a recommendation model leveraging textual features for personalized suggestions.
 
