@@ -1,34 +1,44 @@
-# Unsupervised:  Recommendation-System
+<p align="center"> 
+  <img src="" alt="Netflix" width="200px" height="200px">
+</p>
+<h1 align="center"> Netflix Recommendation </h1>
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://certificates.almabetter.com/en/verify/24284787996614"> AlmaBetter Certificate </a> </h5>
 
-# Project Information:
-Netflix is the world's leading streaming entertainment service with over 209 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films. In thsi project, we have a data related to the movies/shows that are streamed on Netflix. But we didn't have any information about users or their choices. So, we analysed the features and used the available data to cluster similar items rather than making personalised recommendations.
+<p align="center"> 
+<img src="" alt="" height="382px">
+</p>
 
-# Problem Statement:
-This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Flixable which is a third-party Netflix search engine.
-
-In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010. The streaming service’s number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what all other insights can be obtained from the same dataset.
-
-## In this  project, you are required to do
-1. Exploratory Data Analysis 
-
-2. Understanding what type content is available in different countries
-
-3. Is Netflix has increasingly focusing on TV rather than movies in recent years.
-
-4. Clustering similar content by matching text-based features
+Conducted EDA on Netflix Movie/TV Shows data, revealing content trends across regions, and developed a recommendation model leveraging textual features for personalized suggestions.
 
 
-# Project Overview:
-1. Data Cleaning & Feature Engineering
+# :floppy_disk: Project Files:
+This project contains three directories, one model as follows:
+<ul>
+ <li><b> notebooks: </b> This Folder contains .ipynb for the project</li>
+ 
+ <li><b> data: </b> This folder contains</li>
+ <t>a. data.csv : The raw data.</t><br>
+ <t>b. intermediate.csv : The data processed to gain insights and performing EDA.</t><br>
+ <t>c. final_data.csv : The data used for modelling purposes.</t>
+  <li><b> reports: </b> This contains the powerpoint presentation related to the project. 
+<li><b> model: </b> The model is joblib file of model. </li>
+ </ul>
+ 
+<h2> :book: Spectral Clustering</h2>
 
-2. Data Exploration
+Spectral Clustering is a popular clustering algorithm that leverages the spectral properties of data to group similar data points together. It works by transforming the data into a lower-dimensional space using spectral techniques and then applying a traditional clustering algorithm on the transformed data.
 
-3. Recommendations on based of the country
+In spectral clustering, we construct a similarity matrix that measures the pairwise similarities between data points. This matrix captures the relationships between the data points based on some similarity metric (e.g., Euclidean distance or Gaussian kernel). Next, we compute the eigenvalues and eigenvectors of the similarity matrix. The eigenvectors corresponding to the smallest eigenvalues are used to form a new representation of the data, often called the spectral embedding.
 
-4. Preprocessing the data - TF/IDF vectorizer
+The spectral embedding effectively reduces the dimensionality of the data while preserving the underlying structure and capturing clusters or groups within the data. Finally, a clustering algorithm (e.g., k-means) is applied on the spectral embedding to assign data points to clusters.
 
-5. Nearest Neighbors(Model-1)
+Spectral clustering offers several advantages. It can handle complex and nonlinear data structures and is not limited to spherical or convex clusters. It also allows us to uncover clusters of varying sizes and shapes. Additionally, by using the spectral embedding, it can separate clusters that are intertwined or overlapping.
 
-6. Spectral Clustering (Model -2)
+In summary, Spectral Clustering is a powerful algorithm that combines spectral techniques with traditional clustering methods to identify meaningful patterns and groups within data. It is particularly useful when dealing with complex data structures and non-convex clusters.
 
-7. Conclusion
+<h2> :books: References</h2>
+<ul>
+	<li> Google: www.google.com</li>
+	<li> GeeksForGeeks: https://www.geeksforgeeks.org/ml-spectral-clustering/</li>
+    <li> Analytics Vidhya: https://www.analyticsvidhya.com/blog/2021/05/what-why-and-how-of-spectral-clustering/</li>
+    </ul>
