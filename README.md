@@ -13,11 +13,6 @@ Conducted EDA on Netflix Movie/TV Shows data, revealing content trends across re
 This project contains three directories, one model as follows:
 <ul>
  <li><b> notebooks: </b> This Folder contains .ipynb for the project</li>
- 
- <li><b> data: </b> This folder contains</li>
- <t>a. data.csv : The raw data.</t><br>
- <t>b. intermediate.csv : The data processed to gain insights and performing EDA.</t><br>
- <t>c. final_data.csv : The data used for modelling purposes.</t>
   <li><b> reports: </b> This contains the powerpoint presentation related to the project. 
 <li><b> model: </b> The model is joblib file of model. </li>
  </ul>
